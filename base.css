@@ -1,0 +1,161 @@
+.audiowide-regular {
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: serif_custom;
+    src:url('fonts/Source_Serif_4/SourceSerif4-VariableFont_opsz\,wght.ttf')  format('truetype');
+    }
+@font-face {
+font-family: Oswald;
+src:url('fonts/Oswald/static/Oswald-Light.ttf')  format('truetype');
+}
+@font-face {
+  font-family: jura;
+  src:url('fonts/Jura/Jura-VariableFont_wght.ttf')  format('truetype');
+ }
+ @font-face {
+  font-family: italicSerif;
+  src:url('fonts/Source_Serif_4/static/SourceSerif4-Italic.ttf')  format('truetype');
+ }
+#Jura{
+    font-family: jura;
+ }
+ #Oswald{
+    font-family: Oswald;
+ }
+ #HeaderSerif{
+  font-family: italicSerif;
+  font-size: 25px;
+  margin-left:10px;
+ }
+ #italicserif{
+  font-family: italicSerif;
+ }
+ #Serif{
+  font-family: Serif_custom;
+ }
+h1{
+font-family: Serif_custom;
+font-size: 70px;
+position:static;
+margin:0px;
+padding-left:5px;
+z-index: 2;
+}
+h2{
+  font-family: Serif_custom;
+font-size: 40px;
+position:static;
+margin:0px;
+padding-left:5px;
+z-index: 2;
+}
+body{
+    background-color:#0E131F;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+header{
+  height: 400px;
+  display:block;
+  position: static;
+  background-image: url("images/Lighthouse.png");
+  background-size: 150%;
+  background-position: 15% 25%; 
+}
+nav{
+  height: fit-content;
+  position: relative;
+  display:flex;
+  width: fit-content;
+  justify-self: right;
+  z-index:1;
+}
+main{
+  height:fit-content;
+  background-color:#0E131F ;
+  
+}
+footer{
+  height: 100px;
+  background-color: #006992;
+}
+button{
+  background-color: #19152c;
+  color: #ffffff;
+  height: fit-content;
+  padding: 5px;
+  width: fit-content;
+  font-size: 20px;
+  font-family: jura;
+  border:none;
+  }
+  button:hover{
+    background-color: #39386c;
+  }
+  button:active {
+    background-color: #31303f;
+  }
+/*box types*/
+  .largebox{
+    height:400px;
+    width:100%;
+    background-color:  #D7E0E2;
+  }
+  .duobox{
+    width:100%;
+    height:400px;
+    background-color:  #D7E0E2;
+}
+  .medbox{
+  width:100%;
+  background-color: #D7E0E2;
+  height:200px;
+  grid-area: medbox;
+  }
+  .textbox{
+    width:100%;
+    height:100px;
+    background-color: #D7E0E2;
+    color:#0E131F
+}
+
+table{
+  background-color: #D7E0E2;
+  height:400px;
+  width: 100%;
+  align-items: center;
+  padding:10px;
+  object-fit: cover;
+}
+table> tbody> tr> td{
+  background-color: #D7E0E2;
+height:100%;
+padding: 0px;
+overflow: hidden;
+width:33%;
+}
+p{
+  margin-right:10px; 
+  margin-left:10px; 
+  margin-bottom:0px;
+  font-family: jura;
+}
+#linkH:hover{
+transform: scale(105%);
+translate: 10px;
+color:blue;
+}
+ul{
+  margin-right:10px; 
+  margin-left:10px; 
+  font-family: jura;
+  font-size:20px;
+}

@@ -1,0 +1,32 @@
+.layout{
+    display:grid;
+    grid-template-areas:
+    "largebox"
+    "largebox2"
+    "textbox"
+    "largebox3";
+    gap: 10px;
+}
+.largebox#first{
+grid-area: largebox;
+}
+.largebox#second{
+grid-area: largebox2;
+}
+.largebox#third{
+    grid-area: largebox3;
+    }
+.textbox{
+    grid-area: textbox;
+}
+img{
+    height: 400px;
+    }
+
+#trip{
+    width:100%;
+    height:70px;
+    border-radius: 5px;
+    font-family:Arial;
+    font-size: 40px;
+}

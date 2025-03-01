@@ -1,0 +1,27 @@
+.TTDlayout{
+    display:grid;
+    grid-template-areas:
+    "title"
+    "section1"
+    "section2"
+    "section3";
+    gap: 5px;
+}
+.textbox#title{
+    grid-area:title;
+}
+.TTDlayout > .largebox#first{
+    grid-area:section1;
+}
+.TTDlayout > .largebox#second{
+    grid-area:section2;
+}
+.TTDlayout > .largebox#third{
+    grid-area:section3;
+}
+img{
+height: 400px;
+}
+h2{
+    align-self: top;
+}

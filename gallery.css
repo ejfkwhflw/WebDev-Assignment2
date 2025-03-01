@@ -1,0 +1,25 @@
+.layout{
+    display:grid;
+    grid-template-areas:
+    "title1"
+    "gallery1"
+    "title2"
+    "gallery2";
+    gap: 5px;
+}
+table#gallery{
+    height:400px;
+    width: 100%;
+    align-items: center;
+    padding:15px;
+}
+table#gallery> tbody> tr> td{
+height:400px;
+padding: 0px;
+}
+.textbox#two{
+    grid-area:title2;
+}
+.textbox#one{
+    grid-area:title1;
+}
